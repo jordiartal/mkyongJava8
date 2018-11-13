@@ -9,4 +9,5 @@ public class mkyongJava8Application {
 	public static void main(String[] args) {
 		SpringApplication.run(mkyongJava8Application.class, args);
 	}
+
 }

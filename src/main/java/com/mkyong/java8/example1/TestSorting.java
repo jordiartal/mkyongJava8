@@ -28,7 +28,7 @@ public class TestSorting {
 	}
 
 	private static List<Developer> getDevelopers() {
-
+ 
 		List<Developer> result = new ArrayList<Developer>();
 
 		result.add(new Developer("mkyong", new BigDecimal("70000"), 33));
