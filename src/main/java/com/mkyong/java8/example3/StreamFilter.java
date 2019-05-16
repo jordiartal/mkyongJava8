@@ -7,8 +7,7 @@ public class StreamFilter {
 
 	public static void main(String[] args) {
 
-		List<Person> persons = Arrays.asList(new Person("mkyong", 30), new Person("jack", 20),
-				new Person("lawrence", 40));
+		List<Person> persons = Arrays.asList(new Person("mkyong", 30), new Person("jack", 20), new Person("lawrence", 40));
 
 		Person result1 = persons.stream() // Convert to steam
 				.filter(x -> "jack".equals(x.getName())) // we want "jack" only

@@ -21,7 +21,9 @@ public class TestSorting {
 		System.out.println("After Sort");
 		
 		//lambda here!
-		listDevs.sort((Developer o1, Developer o2)->o1.getAge()-o2.getAge());
+		listDevs.sort(
+						(Developer o1, Developer o2)->o1.getAge()-o2.getAge()
+				);
 	
 		//java 8 only, lambda also, to print the List
 		listDevs.forEach((developer)->System.out.println(developer));
